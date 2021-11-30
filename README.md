@@ -17,3 +17,7 @@
 ### IPEX (UF.L) to SMA cable
 
 ![IPEX (UF.L) to SMA cable](https://github.com/Nanich87/raspberry-pico-gnss-logger/blob/main/ipex-to-sma-cable.jpg "IPEX (UF.L) to SMA cable")
+
+### MicroSD Card Adapter
+
+![MicroSD Card Adapter](https://github.com/Nanich87/raspberry-pico-gnss-logger/blob/main/micro-sd-card-adapter.webp "MicroSD Card Adapter")
