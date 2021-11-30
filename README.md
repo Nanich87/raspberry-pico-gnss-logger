@@ -1,1 +1,1 @@
-# raspberry-pico-gnss-logger
+# Raspberry Pico GNSS Logger
