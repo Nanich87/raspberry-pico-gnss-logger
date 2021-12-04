@@ -24,6 +24,11 @@
 
 ## Wiring
 
+### ZED-F9P to Raspberry Pi Pico
+
+* RX -> GP4 (optional)
+* TX -> GP5
+
 ### MicroSD Card Adapter to Raspberry Pi Pico
 
 * CS -> GP13
@@ -32,3 +37,8 @@
 * MISO -> GP12
 * VCC -> VBUS
 * GND -> GND
+
+### Button to Raspberry Pi Pico
+
+* GP3
+* GND
