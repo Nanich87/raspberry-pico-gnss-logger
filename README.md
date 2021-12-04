@@ -22,6 +22,8 @@
 
 ![MicroSD Card Adapter](https://github.com/Nanich87/raspberry-pico-gnss-logger/blob/main/micro-sd-card-adapter.webp "MicroSD Card Adapter")
 
+### MicroSD Card
+
 ## Wiring
 
 ### ZED-F9P to Raspberry Pi Pico
