@@ -21,3 +21,14 @@
 ### MicroSD Card Adapter
 
 ![MicroSD Card Adapter](https://github.com/Nanich87/raspberry-pico-gnss-logger/blob/main/micro-sd-card-adapter.webp "MicroSD Card Adapter")
+
+## Wiring
+
+### MicroSD Card Adapter to Raspberry Pi Pico
+
+* CS -> GP13
+* SCK -> GP10
+* MOSI -> GP11
+* MISO -> GP12
+* VCC -> VBUS
+* GND -> GND
