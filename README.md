@@ -1,5 +1,7 @@
 # Raspberry Pico GNSS Logger
 
+[ESP32-CAM GNSS Logger](https://github.com/Nanich87/esp32-cam-gnss-logger)
+
 ## Parts
 
 ### Raspberry Pi Pico without Headers
