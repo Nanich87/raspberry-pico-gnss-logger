@@ -48,3 +48,8 @@
 
 * GP3
 * GND
+
+### LED to Raspberry Pi Pico
+
+* LED+ -> GP6
+* LED- -> GND
