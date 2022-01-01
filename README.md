@@ -8,7 +8,7 @@
 
 ![Raspberry Pi Pico without Headers](https://github.com/Nanich87/raspberry-pico-gnss-logger/blob/main/raspberry-pico.jpg "Raspberry Pi Pico without Headers")
 
-![Raspberry Pi Pico Pinout](https://github.com/Nanich87/raspberry-pico-gnss-logger/blob/main/Pico-R3-SDK11-Pinout.svg"Raspberry Pi Pico Pinout")
+![Raspberry Pi Pico Pinout](https://github.com/Nanich87/raspberry-pico-gnss-logger/blob/main/Pico-R3-SDK11-Pinout.svg "Raspberry Pi Pico Pinout")
 
 ### ZED-F9P RTK InCase PIN GNSS receiver board with UF.L (IPEX) Base or Rover
 
