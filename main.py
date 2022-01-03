@@ -53,7 +53,7 @@ def log():
                 file.write(data)
             global running
             if running == False:
-                break;
+                break
     led.value(0)
 
 btn.irq(trigger = Pin.IRQ_RISING, handler = toggleLogging)
