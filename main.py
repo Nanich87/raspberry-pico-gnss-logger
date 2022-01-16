@@ -1,5 +1,5 @@
 from machine import UART, Pin, SPI, RTC
-import time
+import utime
 import os
 import sdcard
 import _thread
@@ -29,13 +29,13 @@ os.mount(sd, SDCARD_MOUNT_PATH)
 
 uart = UART(1, baudrate=GPS_BAUD_RATE, tx=Pin(GPS_TX), rx=Pin(GPS_RX))
 
-lastPressedTime = time.ticks_ms()
+lastPressedTime = utime.ticks_ms()
 running = False
 
 def toggleLogging(pin):
     global running, lastPressedTime
-    if time.ticks_diff(time.ticks_ms(), lastPressedTime) > 500:
-        lastPressedTime = time.ticks_ms()
+    if utime.ticks_diff(utime.ticks_ms(), lastPressedTime) > 500:
+        lastPressedTime = utime.ticks_ms()
         if running == True:
             running = False
         else:
@@ -44,7 +44,7 @@ def toggleLogging(pin):
 
 def log():
     led.value(1)
-    year, month, day, hour, mins, secs, weekday, yearday = time.localtime()
+    year, month, day, hour, mins, secs, weekday, yearday = utime.localtime()
     filepath = SDCARD_MOUNT_PATH + "/" + "{}-{:02d}-{:02d}-{:02d}-{:02d}-{:02d}.ubx".format(year, month, day, hour, mins, secs)
     with open(filepath, "a") as file:
         while True:
