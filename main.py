@@ -54,6 +54,7 @@ def log():
             global running
             if running == False:
                 break
+            utime.sleep(0.0625)
     led.value(0)
 
 btn.irq(trigger = Pin.IRQ_RISING, handler = toggleLogging)
